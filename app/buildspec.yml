@@ -1,0 +1,25 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - npm install
+artifacts:
+  files:
+    - app/**/*
+    - app/view1/**/*
+    - app/view2/**/*
+    - app/components/**/*
+    - app/components/version/**/*
+    - app/bower_components/**/*
+    - app/bower_components/angular/**/*
+    - app/bower_components/angular-loader/**/*
+    - app/bower_components/angular-mocks/**/*
+    - app/bower_components/angular-route/**/*
+    - app/bower_components/html5-boilerplate/**/*
+    - app/bower_components/html5-boilerplate/dist/**/*
+    - app/bower_components/html5-boilerplate/dist/css/**/*
+    - app/bower_components/html5-boilerplate/dist/doc/**/*
+    - app/bower_components/html5-boilerplate/dist/img/**/*
+    - app/bower_components/html5-boilerplate/dist/js/**/*
+    - app/bower_components/html5-boilerplate/dist/js/vendor/**/*
